@@ -94,3 +94,43 @@
 .news-cta:hover {
     background-color: #645a55;
 }
+
+.news {
+    padding: 48px;
+}
+
+.news .news-item {
+    width: 420px;
+    display: inline-block;
+    padding: 30px;
+}
+
+.news .news-item .news-item-image {
+    margin-bottom: 30px;
+}
+
+.news .news-item .news-item-category {
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.news .news-item .news-item-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #626262;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.news .news-item .news-item-content {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
+    margin-bottom: 50px;
+    display: block;
+}
