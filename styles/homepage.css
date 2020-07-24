@@ -134,3 +134,34 @@
     margin-bottom: 50px;
     display: block;
 }
+
+.newsletter {
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 280px;
+    position: absolute;
+    left: 0;
+}
+
+.newsletter-content {
+    width: 377px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.newsletter-content-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+.newsletter-content-email {
+    width: 100%;
+    border-top: 0px solid black;
+    border-bottom: 1px solid black;
+    border-left: 0px solid red;
+    border-right: 0px solid red;
+    background: none;
+    font-family: 'Playfair Display', serif;
+    padding: 1px;
+    display: inline-block;
+}
