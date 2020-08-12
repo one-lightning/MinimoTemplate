@@ -3,21 +3,21 @@
     margin: 0 auto;
 }
 
-.header {
+header {
     padding: 70px 0;
 }
 
-.header .logotype,
-.header .navigation {
+header .logotype,
+header .navigation {
     display: inline-block;
 }
 
-.header .navigation {
+header .navigation {
     float: right;
     margin: 6px 0;
 }
 
-.header .navigation a {
+header .navigation a {
     text-decoration: none;
     margin: 5px 70px;
     font-family: 'Playfair Display', serif;
@@ -26,16 +26,16 @@
     font-size: 14px;
 }
 
-.header .navigation a:last-child {
+header .navigation a:last-child {
     margin-right: 0;
 }
 
-.header .navigation a:hover {
+header .navigation a:hover {
     text-decoration: underline;
     color: black;
 }
 
-.header .logotype a {
+header .logotype a {
     font-family: 'Inconsolata', monospace;
     text-decoration: none;
     color: black;
@@ -251,4 +251,47 @@
     background: none;
     padding: 15px 26px;
     border: 1px solid #626262;
+}
+
+footer {
+
+    display: block;
+}
+
+footer .footer-content {
+    background-color: #f0f0f0;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+footer .footer-content-container {
+    width: 1062px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 45px;
+}
+
+footer .footer-content-links a {
+    text-decoration: none;
+    color: #626262;
+    font-size: 14px;
+    font-family: "Playfair Display";
+    margin-right: 17px;
+}
+
+footer .footer-content-social-media-icons {
+    display: inline-block;
+}
+
+footer .footer-content-social-media-icons a {
+    margin-left: 16px;
+}
+
+
+footer .footer-content-social-media a {
+    text-decoration: none;
+    color: #626262;;
+    font-family: "Playfair Display";
 }
