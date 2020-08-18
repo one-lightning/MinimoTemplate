@@ -1,0 +1,40 @@
+.single-post-news-highlighted {
+    padding: 85px;
+}
+
+.single-post-news-category {
+    text-transform: uppercase;
+    color: #b4ad9e;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 15px;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.single-post-news-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    color: #626262;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.single-post-news-content {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
+    margin-bottom: 50px;
+    display: block;
+    margin-top: 38px;
+}
+
+.single-post-image {
+    margin-bottom: 60px;
+}
+
+.single-post-content-quote {
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-size: 14px;
+}

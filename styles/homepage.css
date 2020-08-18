@@ -69,6 +69,7 @@ header .logotype a {
     font-size: 30px;
     color: #626262;
     font-weight: 500;
+    text-decoration: none;
 }
 
 .news-content {
@@ -289,9 +290,30 @@ footer .footer-content-social-media-icons a {
     margin-left: 16px;
 }
 
-
 footer .footer-content-social-media a {
     text-decoration: none;
-    color: #626262;;
+    color: #626262;
     font-family: "Playfair Display";
 }
+
+.share-on-social-media {
+    display: flex;
+    justify-content: flex-end;
+    /*background-repeat: no-repeat;*/
+}
+
+.share-news {
+    text-transform: uppercase;
+    font-family: "Playfair Display";
+    color: #626262;
+}
+
+.share-on-social-media-icons .facebook,
+.share-on-social-media-icons .twitter,
+.share-on-social-media-icons .google-plus,
+.share-on-social-media-icons .tumblr,
+.share-on-social-media-icons .instagram {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
