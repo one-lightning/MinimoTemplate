@@ -288,12 +288,20 @@ footer .footer-content-social-media-icons {
 
 footer .footer-content-social-media-icons a {
     margin-left: 16px;
+    text-decoration: none;
 }
 
-footer .footer-content-social-media a {
+footer .footer-content-social-media {
+    display: flex;
+}
+
+footer .footer-content-social-media h6 {
     text-decoration: none;
+    margin: 0;
     color: #626262;
     font-family: "Playfair Display";
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .share-on-social-media {

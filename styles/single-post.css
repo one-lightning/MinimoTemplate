@@ -38,3 +38,13 @@
     font-style: italic;
     font-size: 14px;
 }
+
+.comment-input {
+    padding: 23px;
+    width: 100%;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    color: #626262;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
